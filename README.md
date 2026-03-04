@@ -7,6 +7,9 @@ There are two ways to load scene:
 
 Either of them can take a scriptable object that will load a prefab on runtime to create transion effect. 
 
+Always add scenes to scenelist.
+always make sure prefab has same material as referenced in scriptable object.
+
 Current Transition effects: Fade, Dissolve by various ways
 
 Future Scope: I am planning to add  Video and Animation Transitions in near future. i also want to add more types of shader transion effect.
